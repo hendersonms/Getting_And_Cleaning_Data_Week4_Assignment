@@ -103,8 +103,9 @@ TrainAndTestData <- merge(TrainAndTestData,activityType,by='activityId',all.x=TR
   melted <- melt(TrainAndTestData, id=c("subjectId","activityType"))
   TidyDataSet <- dcast(melted, subjectId+activityType ~ variable, mean)
   
+  
   # write the tidy data set to a file
-  write.csv(TidyDataSet, "TidyDataSet.csv", row.names=TRUE)
+  write.csv(TidyDataSet, "TidyDataSet.csv", row.names=FALSE)
   ## ----   End of Step 5  ---- ##
 
   
