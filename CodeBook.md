@@ -57,5 +57,13 @@ The reshape2 package will be needed for this script
 *  Scrub the column names so they are descriptive and intuitive (i.e.: "Mag", gets changed to  "Magnitude" etc...)
 *  Establish a second, independent tidy data set with the average of each variable for each activity and each subject
 *  Write out a .csv file that contains the independent tidy data set called "TidyDataSet.csv"
+
+### Variables Used in output of tidy data set
+ [1] "subjectId"                   "activityType"                "activityId"                  "tBodyAccMag-mean()"         
+ [5] "tBodyAccMag-std()"           "tGravityAccMag-mean()"       "tGravityAccMag-std()"        "tBodyAccJerkMag-mean()"     
+ [9] "tBodyAccJerkMag-std()"       "tBodyGyroMag-mean()"         "tBodyGyroMag-std()"          "tBodyGyroJerkMag-mean()"    
+[13] "tBodyGyroJerkMag-std()"      "fBodyAccMag-mean()"          "fBodyAccMag-std()"           "fBodyBodyAccJerkMag-mean()" 
+[17] "fBodyBodyAccJerkMag-std()"   "fBodyBodyGyroMag-mean()"     "fBodyBodyGyroMag-std()"      "fBodyBodyGyroJerkMag-mean()"
+[21] "fBodyBodyGyroJerkMag-std()" 
   
 
